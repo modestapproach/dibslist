@@ -1,5 +1,13 @@
 import type { Metadata } from "next";
+import { Stint_Ultra_Expanded } from "next/font/google";
 import "./globals.css";
+
+const stint = Stint_Ultra_Expanded({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-stint",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "dibslist — before you buy new, check if someone nearby already has it",
@@ -21,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={stint.variable}>
       <body>{children}</body>
     </html>
   );
