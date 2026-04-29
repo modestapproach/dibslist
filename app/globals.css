@@ -4,9 +4,9 @@
   --ink: #000000;
   --muted: #555555;
   --rule: #cccccc;
-  --link: #0000ee;
-  --link-visited: #551a8b;
-  --accent: #b00000;
+  --link: #d2691e;
+  --link-visited: #8b4513;
+  --accent: #d2691e;
 }
 
 * {
@@ -94,7 +94,7 @@ li {
   border-left: 3px solid var(--accent);
   padding: 6px 12px;
   margin: 18px 0;
-  background: #fffaf0;
+  background: #fff5eb;
   font-size: 16px;
 }
 
