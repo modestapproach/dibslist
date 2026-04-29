@@ -32,7 +32,7 @@ export default function Home() {
         <li>your receipts become a private catalog of what you own</li>
         <li>
           the dibslist extension checks, while you shop, whether anyone in your
-          neighborhood already owns one and isn&rsquo;t using it
+          neighborhood already owns that item and isn&rsquo;t using it
         </li>
       </ul>
 
