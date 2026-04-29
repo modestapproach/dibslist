@@ -40,6 +40,10 @@ export default function Home() {
       <ul>
         <li>demand activates supply — no one has to list anything manually</li>
         <li>
+          sell objects you didn&rsquo;t know you wanted to sell, or were too
+          lazy to list
+        </li>
+        <li>
           objects don&rsquo;t disappear after a sale — they transfer, and stay
           in the graph for the next owner to continue receiving offers
         </li>
