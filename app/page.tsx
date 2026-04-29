@@ -21,9 +21,9 @@ export default function Home() {
 
       <p>
         Most of what we buy already exists within a mile of us. Dibslist turns
-        purchase receipts into a private inventory of things people already
-        own, then quietly shows up at checkout to ask whether the item is
-        available used, locally, rented, or repaired — before you click buy.
+        purchase receipts into a private inventory of what people own, then
+        quietly checks — at checkout — whether someone in your neighborhood
+        already has one and isn&rsquo;t using it.
       </p>
 
       <h2>how it works</h2>
@@ -31,14 +31,19 @@ export default function Home() {
         <li>upload your Amazon receipts by connecting our app to your email</li>
         <li>your receipts become a private catalog of what you own</li>
         <li>
-          when someone nearby wants one of those things, you decide: sell, lend,
-          rent, keep, or ignore
-        </li>
-        <li>
-          the dibslist extension intercepts new-purchase intent and routes you
-          to used, local, rental, repair, or refurbished options first
+          the dibslist extension checks, while you shop, whether anyone in your
+          neighborhood already owns one and isn&rsquo;t using it
         </li>
       </ul>
+
+      <h2>how it feels to buy</h2>
+      <p>You click our extension, see local alternatives.</p>
+
+      <h2>how it feels to sell</h2>
+      <p>
+        Open the app, see a list of offers for the various items you own that
+        you aren&rsquo;t using.
+      </p>
 
       <h2>why it&rsquo;s different</h2>
       <ul>
