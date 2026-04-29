@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <header>
         <h1>
-          dibslist<span className="dot">.</span>
+          dibslist<span className="dot">.org</span>
         </h1>
         <div className="tag">object-aware checkout for the internet</div>
       </header>
@@ -35,7 +35,7 @@ export default function Home() {
           rent, keep, or ignore
         </li>
         <li>
-          the browser extension intercepts new-purchase intent and routes you
+          the dibslist extension intercepts new-purchase intent and routes you
           to used, local, rental, repair, or refurbished options first
         </li>
       </ul>
@@ -43,7 +43,7 @@ export default function Home() {
       <h2>why it&rsquo;s different</h2>
       <ul>
         <li>demand activates supply — no one has to list anything manually</li>
-        <li>neighbor-to-neighbor resale stays free; affiliate revenue from new-purchase fallbacks pays for it</li>
+        <li>neighbor-to-neighbor resale is free</li>
         <li>
           objects don&rsquo;t disappear after a sale — they transfer, and stay
           in the graph for the next owner
@@ -53,7 +53,7 @@ export default function Home() {
       <div className="cta">
         <div className="cta-row">
           <a className="button" href={FORM_URL} target="_blank" rel="noopener noreferrer">
-            request early access &rarr;
+            reserve your spot in our early access &rarr;
           </a>
           <span className="small">
             we&rsquo;ll email when the extension is ready
