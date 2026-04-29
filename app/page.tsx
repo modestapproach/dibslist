@@ -28,7 +28,7 @@ export default function Home() {
 
       <h2>how it works</h2>
       <ul>
-        <li>connect Gmail or upload a purchase-history export</li>
+        <li>upload your Amazon receipts by connecting our app to your email</li>
         <li>your receipts become a private catalog of what you own</li>
         <li>
           when someone nearby wants one of those things, you decide: sell, lend,
