@@ -37,7 +37,10 @@ export default function Home() {
       </ul>
 
       <h2>how it feels to buy</h2>
-      <p>You click our extension, see local alternatives.</p>
+      <p>
+        When you are on a product page on Amazon, you click our extension and
+        see local alternatives.
+      </p>
 
       <h2>how it feels to sell</h2>
       <p>
