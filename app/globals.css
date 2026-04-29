@@ -1,0 +1,155 @@
+:root {
+  color-scheme: light;
+  --bg: #f6f6ee;
+  --ink: #000000;
+  --muted: #555555;
+  --rule: #cccccc;
+  --link: #0000ee;
+  --link-visited: #551a8b;
+  --accent: #b00000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--link-visited);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 28px 20px 80px;
+}
+
+header {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 8px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+h1 .dot {
+  color: var(--accent);
+}
+
+.tag {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 22px 0 6px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+ul {
+  margin: 6px 0 12px 22px;
+  padding: 0;
+}
+
+li {
+  margin: 2px 0;
+}
+
+.lede {
+  font-size: 18px;
+  margin: 14px 0 18px;
+}
+
+.pitch {
+  border-left: 3px solid var(--accent);
+  padding: 6px 12px;
+  margin: 18px 0;
+  background: #fffaf0;
+  font-size: 16px;
+}
+
+.pitch em {
+  font-style: italic;
+  color: var(--muted);
+  display: block;
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+.cta {
+  margin: 22px 0 8px;
+  padding: 14px 16px;
+  background: #ffffff;
+  border: 1px solid var(--rule);
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.cta a.button {
+  display: inline-block;
+  background: #ffffff;
+  border: 1px solid var(--ink);
+  padding: 6px 14px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--link);
+}
+
+.cta a.button:hover {
+  background: var(--ink);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.small {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+footer {
+  margin-top: 36px;
+  padding-top: 10px;
+  border-top: 1px solid var(--rule);
+  font-size: 12px;
+  color: var(--muted);
+}
+
+footer a,
+.small a {
+  color: var(--muted);
+}
