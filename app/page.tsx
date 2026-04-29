@@ -36,6 +36,15 @@ export default function Home() {
         </li>
       </ul>
 
+      <h2>why it&rsquo;s different</h2>
+      <ul>
+        <li>demand activates supply — no one has to list anything manually</li>
+        <li>
+          objects don&rsquo;t disappear after a sale — they transfer, and stay
+          in the graph for the next owner to continue receiving offers
+        </li>
+      </ul>
+
       <h2>how it feels to buy</h2>
       <p>
         When you are on a product page on Amazon, you click our extension and
@@ -47,16 +56,6 @@ export default function Home() {
         Open the app, see a list of offers for the various items you own that
         you aren&rsquo;t using.
       </p>
-
-      <h2>why it&rsquo;s different</h2>
-      <ul>
-        <li>demand activates supply — no one has to list anything manually</li>
-        <li>neighbor-to-neighbor resale is free</li>
-        <li>
-          objects don&rsquo;t disappear after a sale — they transfer, and stay
-          in the graph for the next owner
-        </li>
-      </ul>
 
       <div className="cta">
         <div className="cta-row">
