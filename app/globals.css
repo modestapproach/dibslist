@@ -122,16 +122,22 @@ li {
 
 .cta a.button {
   display: inline-block;
-  background: #ffffff;
-  border: 1px solid var(--ink);
+  background: var(--accent);
+  border: 1px solid var(--accent);
   padding: 6px 14px;
   font-weight: bold;
-  text-decoration: underline;
-  color: var(--link);
+  text-decoration: none;
+  color: #ffffff;
 }
 
-.cta a.button:hover {
-  background: var(--ink);
+.cta a.button:visited {
+  color: #ffffff;
+}
+
+.cta a.button:hover,
+.cta a.button:active {
+  background: #a0521b;
+  border-color: #a0521b;
   color: #ffffff;
   text-decoration: none;
 }
